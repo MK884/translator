@@ -1,0 +1,99 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  outline: none;
+  user-select: none;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #363062;
+}
+.container {
+  background-color: #fff;
+  height: 400px;
+  width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 0 0 0.5 #111;
+  padding: 20px;
+}
+
+.wrapper {
+  border: 2px solid #dadada;
+  margin-bottom: 20px;
+}
+.wrapper .input-text {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+}
+.wrapper .input-text .to-text {
+  border-left: 1px solid #dadada;
+}
+textarea {
+  width: 50%;
+  height: 250px;
+  padding: 12px;
+  border: none;
+  resize: none;
+  font-size: 18px;
+}
+.controls {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+}
+.controls .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.controls .to .icons{
+    padding-left: 22px;
+    border-left: 1px solid #dadada;
+}
+.controls .from .icons{
+    padding-right: 22px;
+    border-right: 1px solid #dadada;
+}
+i {
+  color: #9e9b9bda;
+  cursor: pointer;
+}
+i:active{
+    color: #363062;
+    transform: scale(0.9);
+}
+.controls .icons {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+select{
+    border: none;
+    background: transparent;
+    font-size: 18px;
+}
+button{
+    width: 100%;
+    padding: 8px;
+    font-size: 22px;
+    border: none;
+    border-radius: 6px;
+    background-color: #8073e0;
+    color: #fff;
+    font-weight: 500;
+    font-variant: small-caps;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+button:active{
+  transform: scale(0.9);
+  filter: brightness(118%);
+}
